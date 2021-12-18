@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">Individual_2</string>
+    <string name="welcome">Добро пожаловать!</string>
+    <string name="enter">Войти</string>
+    <string name="apple">Войти с Apple</string>
+    <string name="inspero">Войти в Inspero</string>
+    <string name="google">Войти через Google</string>
+    <string name="or">или</string>
+    <string name="sign_in">Логин</string>
+    <string name="code">Пароль</string>
+    <string name="need">Нужен аккаунт?</string>
+    <string name="recall">Запомнить меня</string>
+    <string name="lose">Забыли пароль?</string>
+    <string name="enroll"> <u>Зарегистрироваться</u></string>
 </resources>
