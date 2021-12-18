@@ -19,4 +19,12 @@
     <string name="name">Имя</string>
     <string name="surname">Фамилия</string>
     <string name="record">Регистрация</string>
+    <string name="proposal">Что вам по душе?</string>
+    <string name="choose">выберите категорию</string>
+    <string name="graphic">Графический дизайн</string>
+    <string name="cloth">Дизайн одежды</string>
+    <string name="interior">Дизайн интерьера</string>
+    <string name="visualization">Зд визуализация</string>
+    <string name="product">Дизайн продукта</string>
+    <string name="website">Дизайн сайта</string>
 </resources>
