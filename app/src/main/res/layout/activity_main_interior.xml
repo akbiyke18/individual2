@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivityGraphic"
+    tools:context=".MainActivityInterior"
     android:background="@color/purple">
 
     <TextView
@@ -12,7 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-black"
-        android:text="@string/title"
+        android:text="@string/title_2"
         android:textColor="@color/white"
         android:textSize="24sp"
         android:layout_marginTop="50dp"
@@ -27,7 +27,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="240dp"
         android:layout_marginTop="135dp"
-        android:text="@string/nickname_1"
+        android:text="@string/nickname_4"
         android:textColor="@color/white"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -62,11 +62,11 @@
         android:id="@+id/textView8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/nickname_2"
+        android:text="@string/nickname_5"
         android:textColor="@color/white"
         android:textSize="20sp"
         android:layout_marginBottom="330dp"
-        android:layout_marginStart="222dp"
+        android:layout_marginStart="240dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -75,11 +75,11 @@
         android:id="@+id/textView9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/nickname_3"
+        android:text="@string/nickname_6"
         android:textColor="@color/white"
         android:textSize="20sp"
-        android:layout_marginBottom="94dp"
-        android:layout_marginStart="240dp"
+        android:layout_marginBottom="96dp"
+        android:layout_marginStart="220dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -99,7 +99,7 @@
             android:id="@+id/imageView3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:srcCompat="@drawable/image_1"
+            app:srcCompat="@drawable/int1"
             android:layout_marginBottom="40dp"
             android:contentDescription="@null"/>
 
@@ -107,7 +107,7 @@
             android:id="@+id/imageView6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:srcCompat="@drawable/image_2"
+            app:srcCompat="@drawable/int2"
             android:layout_marginBottom="40dp"
             android:contentDescription="@null"/>
 
@@ -115,9 +115,7 @@
             android:id="@+id/imageView7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:srcCompat="@drawable/part"
+            app:srcCompat="@drawable/int3"
             android:contentDescription="@null"/>
     </LinearLayout>
-
-
 </androidx.constraintlayout.widget.ConstraintLayout>
