@@ -32,4 +32,8 @@
     <string name="nickname_3">@anastas</string>
     <string name="follow"> <u>Подписаться</u></string>
     <string name="title">Графический дизайн</string>
+    <string name="author">Автор: Max Juette</string>
+    <string name="nick">Инстаграм: @fooniks</string>
+    <string name="save">Сохранить</string>
+    <string name="subscribe">Подписаться</string>
 </resources>
