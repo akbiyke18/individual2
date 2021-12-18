@@ -27,4 +27,9 @@
     <string name="visualization">Зд визуализация</string>
     <string name="product">Дизайн продукта</string>
     <string name="website">Дизайн сайта</string>
+    <string name="nickname_1">@fooniks</string>
+    <string name="nickname_2">@rekikk</string>
+    <string name="nickname_3">@anastas</string>
+    <string name="follow"> <u>Подписаться</u></string>
+    <string name="title">Графический дизайн</string>
 </resources>
