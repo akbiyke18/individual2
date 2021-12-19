@@ -56,4 +56,10 @@
     <string name="nickname_16">@mirateri</string>
     <string name="nickname_17">@peedle</string>
     <string name="nickname_18">@sonks</string>
+    <string name="clothes">Одежда</string>
+    <string name="posters">Постеры</string>
+    <string name="interiors">Интерьер</string>
+    <string name="brochures">Брошюры</string>
+    <string name="advertisement">Реклама</string>
+    <string name="websites">Сайт</string>
 </resources>

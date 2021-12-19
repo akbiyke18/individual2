@@ -4,15 +4,16 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Individual_2/app/src/main/res/layout/activity_main.xml" value="0.25" />
-        <entry key="..\:/Individual_2/app/src/main/res/layout/activity_main_category.xml" value="0.25885416666666666" />
+        <entry key="..\:/Individual_2/app/src/main/res/layout/activity_main_category.xml" value="0.25" />
         <entry key="..\:/Individual_2/app/src/main/res/layout/activity_main_clothes.xml" value="0.27291666666666664" />
-        <entry key="..\:/Individual_2/app/src/main/res/layout/activity_main_detailed.xml" value="0.27291666666666664" />
+        <entry key="..\:/Individual_2/app/src/main/res/layout/activity_main_detailed.xml" value="0.25" />
         <entry key="..\:/Individual_2/app/src/main/res/layout/activity_main_graphic.xml" value="0.25" />
         <entry key="..\:/Individual_2/app/src/main/res/layout/activity_main_greet.xml" value="0.27291666666666664" />
         <entry key="..\:/Individual_2/app/src/main/res/layout/activity_main_interior.xml" value="0.25" />
         <entry key="..\:/Individual_2/app/src/main/res/layout/activity_main_product.xml" value="0.25885416666666666" />
         <entry key="..\:/Individual_2/app/src/main/res/layout/activity_main_register.xml" value="0.25" />
         <entry key="..\:/Individual_2/app/src/main/res/layout/activity_main_registration.xml" value="0.25" />
+        <entry key="..\:/Individual_2/app/src/main/res/layout/activity_main_search.xml" value="0.33" />
         <entry key="..\:/Individual_2/app/src/main/res/layout/activity_main_visualization.xml" value="0.27291666666666664" />
         <entry key="..\:/Individual_2/app/src/main/res/layout/activity_main_website.xml" value="0.27291666666666664" />
       </map>

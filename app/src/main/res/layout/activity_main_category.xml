@@ -32,58 +32,100 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:layout_marginTop="50dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
 
-        <Button
-            android:id="@+id/button2"
-            android:layout_width="287dp"
-            android:layout_height="46dp"
-            android:text="@string/graphic"
-            android:layout_marginBottom="30dp"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
 
-        <Button
-            android:id="@+id/button4"
-            android:layout_width="287dp"
-            android:layout_height="46dp"
-            android:text="@string/cloth"
-            android:layout_marginBottom="30dp"/>
+            <androidx.cardview.widget.CardView
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_marginBottom="30dp"
+                app:cardCornerRadius="20dp">
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="300dp"
+                    android:layout_height="40dp"
+                    android:backgroundTint="@color/white"
+                    android:text="@string/graphic" />
+            </androidx.cardview.widget.CardView>
 
-        <Button
-            android:id="@+id/button3"
-            android:layout_width="287dp"
-            android:layout_height="46dp"
-            android:text="@string/interior"
-            android:layout_marginBottom="30dp"/>
+            <androidx.cardview.widget.CardView
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_marginBottom="30dp"
+                app:cardCornerRadius="20dp">
+                <Button
+                    android:id="@+id/button4"
+                    android:layout_width="300dp"
+                    android:layout_height="40dp"
+                    android:layout_marginBottom="30dp"
+                    android:backgroundTint="@color/white"
+                    android:text="@string/cloth" />
+            </androidx.cardview.widget.CardView>
 
-        <Button
-            android:id="@+id/button5"
-            android:layout_width="287dp"
-            android:layout_height="46dp"
-            android:text="@string/visualization"
-            android:layout_marginBottom="30dp"/>
+            <androidx.cardview.widget.CardView
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_marginBottom="30dp"
+                app:cardCornerRadius="20dp">
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="300dp"
+                    android:layout_height="40dp"
+                    android:layout_marginBottom="30dp"
+                    android:backgroundTint="@color/white"
+                    android:text="@string/interior" />
+            </androidx.cardview.widget.CardView>
 
-        <Button
-            android:id="@+id/button6"
-            android:layout_width="287dp"
-            android:layout_height="46dp"
-            android:text="@string/product"
-            android:layout_marginBottom="30dp"/>
+            <androidx.cardview.widget.CardView
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_marginBottom="30dp"
+                app:cardCornerRadius="20dp">
+                <Button
+                    android:id="@+id/button5"
+                    android:layout_width="300dp"
+                    android:layout_height="40dp"
+                    android:layout_marginBottom="30dp"
+                    android:backgroundTint="@color/white"
+                    android:text="@string/visualization" />
+            </androidx.cardview.widget.CardView>
 
-        <Button
-            android:id="@+id/button7"
-            android:layout_width="287dp"
-            android:layout_height="46dp"
-            android:text="@string/website" />
+            <androidx.cardview.widget.CardView
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_marginBottom="30dp"
+                app:cardCornerRadius="20dp">
+                <Button
+                    android:id="@+id/button6"
+                    android:layout_width="300dp"
+                    android:layout_height="40dp"
+                    android:layout_marginBottom="30dp"
+                    android:backgroundTint="@color/white"
+                    android:text="@string/product" />
+            </androidx.cardview.widget.CardView>
 
-    </LinearLayout>
+            <androidx.cardview.widget.CardView
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                app:cardCornerRadius="20dp">
+                <Button
+                    android:id="@+id/button7"
+                    android:layout_width="300dp"
+                    android:layout_height="40dp"
+                    android:backgroundTint="@color/white"
+                    android:text="@string/website" />
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
