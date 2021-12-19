@@ -20,38 +20,86 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/apple"
+    <androidx.cardview.widget.CardView
         android:layout_width="330dp"
-        android:layout_height="50dp"
-        android:text="@string/apple"
+        android:layout_height="48dp"
+        app:cardCornerRadius="30dp"
         android:layout_marginBottom="380dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent">
+        <androidx.cardview.widget.CardView
+            android:id="@+id/apple"
+            android:layout_width="330dp"
+            android:layout_height="50dp"
+            android:backgroundTint="@color/black">
 
-    <Button
-        android:id="@+id/inspero"
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/apple"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+        </androidx.cardview.widget.CardView>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
         android:layout_width="330dp"
-        android:layout_height="50dp"
-        android:text="@string/inspero"
+        android:layout_height="48dp"
+        app:cardCornerRadius="30dp"
         android:layout_marginBottom="250dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent">
+        <androidx.cardview.widget.CardView
+            android:id="@+id/inspero"
+            android:layout_width="330dp"
+            android:layout_height="50dp"
+            android:backgroundTint="@color/purple">
 
-    <Button
-        android:id="@+id/google"
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/inspero"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+        </androidx.cardview.widget.CardView>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
         android:layout_width="330dp"
-        android:layout_height="50dp"
-        android:text="@string/google"
+        android:layout_height="48dp"
+        app:cardCornerRadius="30dp"
         android:layout_marginBottom="116dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent" >
+        <androidx.cardview.widget.CardView
+            android:id="@+id/google"
+            android:layout_width="330dp"
+            android:layout_height="50dp"
+            android:backgroundTint="@color/grey_light">
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/google"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+        </androidx.cardview.widget.CardView>
+
+    </androidx.cardview.widget.CardView>
 
     <TextView
         android:id="@+id/or"
@@ -119,16 +167,35 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/input_2"
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView3"
         android:layout_width="150dp"
-        android:layout_height="wrap_content"
-        android:text="@string/enter"
+        android:layout_height="34dp"
+        app:cardCornerRadius="30dp"
         android:layout_marginTop="510dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"  >
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/input_2"
+            android:layout_width="150dp"
+            android:layout_height="34dp"
+            android:text="@string/enter"
+            android:backgroundTint="@color/purple">
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/enter"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+        </androidx.cardview.widget.CardView>
+
+    </androidx.cardview.widget.CardView>
 
     <TextView
         android:id="@+id/offer"

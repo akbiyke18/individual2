@@ -8,7 +8,7 @@
     tools:context=".MainActivityProfile">
 
     <ImageView
-        android:id="@+id/imageView11"
+        android:id="@+id/imageView_set"
         android:layout_width="30dp"
         android:layout_height="30dp"
         android:layout_marginStart="300dp"

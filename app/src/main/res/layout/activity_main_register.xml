@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivityRegister">
+    tools:context=".MainActivityRegister"
+    android:background="@color/white">
 
     <ImageView
         android:id="@+id/imageView2"
@@ -29,15 +30,32 @@
         app:srcCompat="@drawable/back_black"
         android:contentDescription="@null"/>
 
-    <Button
-        android:id="@+id/button"
+    <androidx.cardview.widget.CardView
         android:layout_width="294dp"
         android:layout_height="48dp"
-        android:text="@string/next"
+        app:cardCornerRadius="30dp"
         android:layout_marginBottom="60dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent">
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card"
+            android:layout_width="294dp"
+            android:layout_height="48dp"
+            android:backgroundTint="@color/purple">
+
+            <TextView
+                android:id="@+id/textView_next"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/next"
+                android:textSize="18sp"
+                android:layout_gravity="center"
+                android:textColor="@color/white"/>
+        </androidx.cardview.widget.CardView>
+
+    </androidx.cardview.widget.CardView>
+
 
     <EditText
         android:id="@+id/editTextTextPersonName7"
