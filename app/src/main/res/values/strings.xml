@@ -75,4 +75,6 @@
     <string name="background">Изменение фона</string>
     <string name="add">Добавить аккаунт</string>
     <string name="out">Выход</string>
+    <string name="all_photos">Все фото</string>
+    <string name="button">Button</string>
 </resources>
