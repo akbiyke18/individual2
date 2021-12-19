@@ -62,4 +62,9 @@
     <string name="brochures">Брошюры</string>
     <string name="advertisement">Реклама</string>
     <string name="websites">Сайт</string>
+    <string name="nickname">@wangaa</string>
+    <string name="name_surname">Aleksandra Wang</string>
+    <string name="followers">0 подписчиков</string>
+    <string name="following">0 подписки</string>
+    <string name="photos">0 публикаций</string>
 </resources>
