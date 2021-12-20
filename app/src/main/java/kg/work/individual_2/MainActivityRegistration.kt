@@ -16,12 +16,6 @@ class MainActivityRegistration : AppCompatActivity() {
         .setOnClickListener {
             startActivity(Intent(this,MainActivityRegister::class.java))
         }
-
-    val cardView= findViewById<TextView>(R.id.cardView3)
-
-        .setOnClickListener {
-            startActivity(Intent(this,MainActivityCategory::class.java))
-        }
 }
 
 

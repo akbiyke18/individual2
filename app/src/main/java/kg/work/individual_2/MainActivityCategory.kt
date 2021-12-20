@@ -16,29 +16,5 @@ class MainActivityCategory : AppCompatActivity() {
         .setOnClickListener {
             startActivity(Intent(this,MainActivityGraphic::class.java))
         }
-    val cloth = findViewById<Button>(R.id.button_cloth)
 
-        .setOnClickListener {
-            startActivity(Intent(this,MainActivityClothes::class.java))
-        }
-    val interior = findViewById<Button>(R.id.button_interior)
-
-        .setOnClickListener {
-            startActivity(Intent(this,MainActivityInterior::class.java))
-        }
-    val visualization = findViewById<Button>(R.id.button_3d)
-
-        .setOnClickListener {
-            startActivity(Intent(this,MainActivityVisualization::class.java))
-        }
-    val product = findViewById<Button>(R.id.button_product)
-
-        .setOnClickListener {
-            startActivity(Intent(this,MainActivityProduct::class.java))
-        }
-    val website = findViewById<Button>(R.id.button_site)
-
-        .setOnClickListener {
-            startActivity(Intent(this,MainActivityWebsite::class.java))
-        }
 }
